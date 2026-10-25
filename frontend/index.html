@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Sales Analytics Platform</title><link rel="stylesheet" href="/static/styles.css"></head>
+<body>
+  <header><p class="eyebrow">SYNTHETIC DEMO SALES DATASET</p><h1>Sales Analytics Platform</h1><p>Understand sales performance through data.</p></header>
+  <main>
+    <section class="filters" aria-label="Date filters"><label>Start date <input id="start-date" type="date"></label><label>End date <input id="end-date" type="date"></label><button id="apply">Apply filters</button><button id="all-time" class="secondary">All time</button></section>
+    <p id="status" role="status">Loading analytics…</p>
+    <section id="kpis" class="kpi-grid" aria-label="Key performance indicators"></section>
+    <section class="panel"><h2>Revenue and profit trend</h2><div id="trend" class="trend" aria-label="Monthly trend chart"></div></section>
+  </main>
+  <script src="/static/dashboard.js"></script>
+</body></html>
+
